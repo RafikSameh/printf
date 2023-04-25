@@ -28,7 +28,7 @@ int handle_print(const char *format, int *i, va_list list)
 	ff function[] = {
 		{'c', print_char}, {'s', print_str},
 		{'%', print_perc}, {'i', print_int},
-		{'d', print_int}, {'\0', NULL}
+		{'d', print_int}, {'b', print_binary}, {'\0', NULL}
 	};
 	int j;
 
