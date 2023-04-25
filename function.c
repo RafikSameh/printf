@@ -78,13 +78,11 @@ int print_perc(va_list list)
  * @buffer: Buffer array to handle print
  * Return: Numbers of char printed.
  */
-int print_binary(va_list types, char buffer[])
+int print_binary(va_list types)
 {
 	unsigned int n, m, i, sum;
 	unsigned int a[32];
 	int count;
-
-	UNUSED(buffer);
 
 	n = va_arg(types, unsigned int);
 	m = 2147483648; /* (2 ^ 31) */
