@@ -38,7 +38,7 @@ int print_char(va_list list);
 int print_str(va_list list);
 int _putchar(char c);
 int print_perc(va_list list);
-int print_binary(va_list types, char buffer[]);
+int print_binary(va_list types);
 /* Functions to print numbers */
 int print_int(va_list list);
 #endif
